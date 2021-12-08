@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.img_main{
+  height:55px;
+}
+.container{
+  padding: 10px 10%;
+  display: flex;
+}
+div button{
+  padding: 7.5px 15px;
+  border-radius: 2px;
+  background-color: #009999;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+div button:hover{
+  background-color: #8ddfdf;
+  transition: 0.3s ease-in-out;
+}
+.field label:not(:last-child){
+  display: block;
+  padding-top: 20px;
+}
+::-webkit-input-placeholder {
+  font-style: italic;
+  padding-left: 5px;
+  line-height: 15px;
+}
+
+/* Firefox 19+ */
+::-moz-placeholder {
+  font-style: italic;
+  padding-left: 5px;
+  line-height: 15px;
+}
+
+/* IE 10+ */
+:-ms-input-placeholder {
+  font-style: italic;
+  padding-left: 5px;
+  line-height: 15px;
+}
+
+/* Firefox 18- */
+:-moz-placeholder {
+  font-style: italic;
+  padding-left: 10px;
+  line-height: 15px;
+}
+.field:not(:last-child) input{
+  line-height: 15px;
+  
+  padding: 7px 0;
+  padding-right: 100px;
+}
+.ui thead{
+  border-bottom: 1px solid #fff;
+}
